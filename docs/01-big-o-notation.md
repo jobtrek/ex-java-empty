@@ -9,8 +9,8 @@ for 10 items might freeze your server when processing 10,000 items if the comple
 
 ## 1. Why Do We Need It?
 
-When comparing algorithms, we don't measure time in seconds (which varies by computer speed). Instead, we measure the *
-*number of operations** relative to the input size $n$.
+When comparing algorithms, we don't measure time in seconds (which varies by computer speed). Instead, we measure the
+**number of operations** relative to the input size $n$.
 
 - **Efficient algorithms** grow slowly as $n$ increases.
 - **Inefficient algorithms** grow exponentially as $n$ increases.

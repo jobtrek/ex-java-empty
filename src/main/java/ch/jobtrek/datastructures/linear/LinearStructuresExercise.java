@@ -53,6 +53,8 @@ public class LinearStructuresExercise {
      * @return a {@link ListPair} containing both populated lists
      */
     public static ListPair populateLists(int size) {
+        // TODO: complete this method
+        throw new UnsupportedOperationException("TODO: replace me with your solution !");
     }
 
     /**
@@ -81,6 +83,8 @@ public class LinearStructuresExercise {
      * @param value the integer value to insert
      */
     public static void insertAtMiddle(List<Integer> list, int value) {
+        // TODO: complete this method
+        throw new UnsupportedOperationException("TODO: replace me with your solution !");
     }
 
     /**
@@ -108,6 +112,8 @@ public class LinearStructuresExercise {
      * @param value the integer value to insert at position 0
      */
     public static void insertAtHead(List<Integer> list, int value) {
+        // TODO: complete this method
+        throw new UnsupportedOperationException("TODO: replace me with your solution !");
     }
 
     /**
@@ -135,5 +141,7 @@ public class LinearStructuresExercise {
      * @return the same ArrayList after trimming
      */
     public static ArrayList<Integer> optimizeMemory(ArrayList<Integer> list) {
+        // TODO: complete this method
+        throw new UnsupportedOperationException("TODO: replace me with your solution !");
     }
 }

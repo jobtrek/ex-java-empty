@@ -61,6 +61,8 @@ public class MapStructuresExercise {
      * @return a HashMap populated with the key-value pairs
      */
     public static HashMap<String, String> populateHashMap(List<String> keys, List<String> values) {
+        // TODO: complete this method
+        throw new UnsupportedOperationException("TODO: replace me with your solution !");
     }
 
     /**
@@ -88,6 +90,8 @@ public class MapStructuresExercise {
      * @return a TreeMap populated with the key-value pairs
      */
     public static TreeMap<String, String> populateTreeMap(List<String> keys, List<String> values) {
+        // TODO: complete this method
+        throw new UnsupportedOperationException("TODO: replace me with your solution !");
     }
 
     /**
@@ -112,6 +116,8 @@ public class MapStructuresExercise {
      * @return a LinkedHashMap populated with the key-value pairs
      */
     public static LinkedHashMap<String, String> populateLinkedHashMap(List<String> keys, List<String> values) {
+        // TODO: complete this method
+        throw new UnsupportedOperationException("TODO: replace me with your solution !");
     }
 
     /**
@@ -150,6 +156,8 @@ public class MapStructuresExercise {
      */
     public static Map.Entry<String, Integer> buildFifoQueue(
             SequencedMap<String, Integer> map, List<String> keys, List<Integer> values) {
+        // TODO: complete this method
+        throw new UnsupportedOperationException("TODO: replace me with your solution !");
     }
 
     /**
@@ -172,6 +180,8 @@ public class MapStructuresExercise {
      * @return a reversed view of the map
      */
     public static SequencedMap<String, Integer> reverseMapView(SequencedMap<String, Integer> map) {
+        // TODO: complete this method
+        throw new UnsupportedOperationException("TODO: replace me with your solution !");
     }
 
     /**
@@ -208,5 +218,7 @@ public class MapStructuresExercise {
      * @return a map of lower-case words to their occurrence count
      */
     public static HashMap<String, Integer> countWordFrequencies(List<String> words) {
+        // TODO: complete this method
+        throw new UnsupportedOperationException("TODO: replace me with your solution !");
     }
 }
