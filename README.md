@@ -1,6 +1,6 @@
 # Java Data Structures Exercises
 
-**v1.0.1 :** [Read changelog](./CHANGELOG.md) <!-- x-release-please-version -->
+**v1.0.3 :** [Read changelog](./CHANGELOG.md) <!-- x-release-please-version -->
 
 This repo contains some exercises to help you learn how data structures work. The code is written in Java, but remember
 that Data Structures are not language dependent, these concepts
@@ -27,7 +27,7 @@ the same.
 
 ## Theory
 
-Before starting the exercises, I encourage you to reat the introduction of the concepts covered in the exercises.
+Before starting the exercises, I encourage you to read the introduction of the concepts covered in the exercises.
 
 - [What is big O notation](docs/01-big-o-notation.md)
 - [Data Structures](docs/02-data-structures-overview.md)

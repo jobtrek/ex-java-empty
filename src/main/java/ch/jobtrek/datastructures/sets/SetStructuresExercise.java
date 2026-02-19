@@ -70,6 +70,8 @@ public class SetStructuresExercise {
      * @return a HashSet containing only the unique strings
      */
     public static HashSet<String> deduplicateWithHashSet(List<String> input) {
+        // TODO: complete this method
+        throw new UnsupportedOperationException("TODO: replace me with your solution !");
     }
 
     /**
@@ -95,6 +97,8 @@ public class SetStructuresExercise {
      * @return a new set containing only elements present in both sets
      */
     public static Set<String> computeIntersection(Set<String> setA, Set<String> setB) {
+        // TODO: complete this method
+        throw new UnsupportedOperationException("TODO: replace me with your solution !");
     }
 
     /**
@@ -120,6 +124,8 @@ public class SetStructuresExercise {
      * @return a new set containing all elements from both sets
      */
     public static Set<String> computeUnion(Set<String> setA, Set<String> setB) {
+        // TODO: complete this method
+        throw new UnsupportedOperationException("TODO: replace me with your solution !");
     }
 
     /**
@@ -154,6 +160,8 @@ public class SetStructuresExercise {
      * @return a new set containing elements in {@code setA} that are not in {@code setB}
      */
     public static Set<String> computeDifference(Set<String> setA, Set<String> setB) {
+        // TODO: complete this method
+        throw new UnsupportedOperationException("TODO: replace me with your solution !");
     }
 
     /**
@@ -193,5 +201,7 @@ public class SetStructuresExercise {
      * @return the closest coordinate value in the set
      */
     public static Double findClosest(TreeSet<Double> coordinates, double target) {
+        // TODO: complete this method
+        throw new UnsupportedOperationException("TODO: replace me with your solution !");
     }
 }

@@ -87,11 +87,9 @@ public class BinarySearchTree<T extends Comparable<T>> {
         this.root = insertRec(this.root, value);
     }
 
-    // =================================================================
-    // Exercise methods — implement these
-    // =================================================================
-
     private Node<T> insertRec(Node<T> node, T value) {
+        // TODO: complete this method
+        throw new UnsupportedOperationException("TODO: replace me with your solution !");
     }
 
     /**
@@ -123,6 +121,8 @@ public class BinarySearchTree<T extends Comparable<T>> {
     }
 
     private void inOrderRec(Node<T> node, List<T> result) {
+        // TODO: complete this method
+        throw new UnsupportedOperationException("TODO: replace me with your solution !");
     }
 
     /**
@@ -146,6 +146,8 @@ public class BinarySearchTree<T extends Comparable<T>> {
     }
 
     private int sizeRec(Node<T> node) {
+        // TODO: complete this method
+        throw new UnsupportedOperationException("TODO: replace me with your solution !");
     }
 
     /**
@@ -173,6 +175,8 @@ public class BinarySearchTree<T extends Comparable<T>> {
     }
 
     private int heightRec(Node<T> node) {
+        // TODO: complete this method
+        throw new UnsupportedOperationException("TODO: replace me with your solution !");
     }
 
     /**
@@ -195,6 +199,8 @@ public class BinarySearchTree<T extends Comparable<T>> {
      * @return the maximum value, or {@code null} if the tree is empty
      */
     public T findMax() {
+        // TODO: complete this method
+        throw new UnsupportedOperationException("TODO: replace me with your solution !");
     }
 
     /**
@@ -225,6 +231,8 @@ public class BinarySearchTree<T extends Comparable<T>> {
     }
 
     private boolean containsRec(Node<T> node, T value) {
+        // TODO: complete this method
+        throw new UnsupportedOperationException("TODO: replace me with your solution !");
     }
 
     /**

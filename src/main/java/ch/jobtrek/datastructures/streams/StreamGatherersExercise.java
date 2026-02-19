@@ -85,6 +85,8 @@ public class StreamGatherersExercise {
      * @return a new list containing only students with {@code grade >= minGrade}
      */
     public static List<Student> filterByGrade(List<Student> students, double minGrade) {
+        // TODO: complete this method
+        throw new UnsupportedOperationException("TODO: replace me with your solution !");
     }
 
     /**
@@ -113,6 +115,8 @@ public class StreamGatherersExercise {
      * @return a new list containing the name of each student, in encounter order
      */
     public static List<String> extractNames(List<Student> students) {
+        // TODO: complete this method
+        throw new UnsupportedOperationException("TODO: replace me with your solution !");
     }
 
     /**
@@ -144,6 +148,8 @@ public class StreamGatherersExercise {
      * @return the average grade, or {@code 0.0} if the list is empty
      */
     public static double computeAverageGrade(List<Student> students) {
+        // TODO: complete this method
+        throw new UnsupportedOperationException("TODO: replace me with your solution !");
     }
 
     /**
@@ -176,6 +182,8 @@ public class StreamGatherersExercise {
      */
     public static Map<Boolean, List<Student>> groupStudentsByPassFail(
             List<Student> students, double passingGrade) {
+        // TODO: complete this method
+        throw new UnsupportedOperationException("TODO: replace me with your solution !");
     }
 
     /**
@@ -209,6 +217,8 @@ public class StreamGatherersExercise {
      * @return a map from each unique word to the number of times it appears
      */
     public static Map<String, Long> countWordFrequencies(List<String> words) {
+        // TODO: complete this method
+        throw new UnsupportedOperationException("TODO: replace me with your solution !");
     }
 
     // =======================================================================
@@ -248,6 +258,8 @@ public class StreamGatherersExercise {
      * @return a list of batches, where each batch is a sub-list of emails
      */
     public static List<List<String>> batchEmailRecords(List<String> emails, int batchSize) {
+        // TODO: complete this method
+        throw new UnsupportedOperationException("TODO: replace me with your solution !");
     }
 
     /**
@@ -285,6 +297,8 @@ public class StreamGatherersExercise {
      * @return a list of running balances with one entry per input transaction
      */
     public static List<Integer> computeRunningBalance(List<Integer> transactions) {
+        // TODO: complete this method
+        throw new UnsupportedOperationException("TODO: replace me with your solution !");
     }
 
     /**
@@ -322,6 +336,8 @@ public class StreamGatherersExercise {
      * @return a list of moving averages, one per sliding window
      */
     public static List<Double> computeMovingAverage(List<Double> temperatures, int windowSize) {
+        // TODO: complete this method
+        throw new UnsupportedOperationException("TODO: replace me with your solution !");
     }
 
     /**
@@ -369,5 +385,7 @@ public class StreamGatherersExercise {
      * @return a new list with consecutive duplicate elements removed
      */
     public static <T> List<T> deduplicateConsecutive(List<T> input) {
+        // TODO: complete this method
+        throw new UnsupportedOperationException("TODO: replace me with your solution !");
     }
 }

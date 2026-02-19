@@ -37,6 +37,8 @@ public class EarthquakeAnalysis {
      * @return a populated BinarySearchTree
      */
     public static BinarySearchTree<Earthquake> buildTree(List<Earthquake> quakes) {
+        // TODO: complete this method
+        throw new UnsupportedOperationException("TODO: replace me with your solution !");
     }
 
     /**
@@ -60,6 +62,8 @@ public class EarthquakeAnalysis {
      * @return the earthquake with the highest magnitude, or null if empty
      */
     public static Earthquake findLargestMagnitude(BinarySearchTree<Earthquake> tree) {
+        // TODO: complete this method
+        throw new UnsupportedOperationException("TODO: replace me with your solution !");
     }
 
     /**
@@ -83,5 +87,7 @@ public class EarthquakeAnalysis {
      * @return a list of earthquakes sorted by magnitude ascending
      */
     public static List<Earthquake> getSortedByMagnitude(BinarySearchTree<Earthquake> tree) {
+        // TODO: complete this method
+        throw new UnsupportedOperationException("TODO: replace me with your solution !");
     }
 }
