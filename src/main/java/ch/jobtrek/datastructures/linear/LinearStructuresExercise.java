@@ -53,6 +53,16 @@ public class LinearStructuresExercise {
      * @return a {@link ListPair} containing both populated lists
      */
     public static ListPair populateLists(int size) {
+        // TODO: complete this method
+        // --sw-wipe--
+        var arrayList = new ArrayList<Integer>();
+        var linkedList = new LinkedList<Integer>();
+        for (int i = 0; i < size; i++) {
+            arrayList.add(i);
+            linkedList.add(i);
+        }
+        return new ListPair(arrayList, linkedList);
+        // --sw-wipe--
     }
 
     /**
@@ -81,6 +91,11 @@ public class LinearStructuresExercise {
      * @param value the integer value to insert
      */
     public static void insertAtMiddle(List<Integer> list, int value) {
+        // TODO: complete this method
+        // --sw-wipe--
+        int middle = list.size() / 2;
+        list.add(middle, value);
+        // --sw-wipe--
     }
 
     /**
@@ -108,6 +123,10 @@ public class LinearStructuresExercise {
      * @param value the integer value to insert at position 0
      */
     public static void insertAtHead(List<Integer> list, int value) {
+        // TODO: complete this method
+        // --sw-wipe--
+        list.addFirst(value);
+        // --sw-wipe--
     }
 
     /**
@@ -135,5 +154,10 @@ public class LinearStructuresExercise {
      * @return the same ArrayList after trimming
      */
     public static ArrayList<Integer> optimizeMemory(ArrayList<Integer> list) {
+        // TODO: complete this method
+        // --sw-wipe--
+        list.trimToSize();
+        return list;
+        // --sw-wipe--
     }
 }

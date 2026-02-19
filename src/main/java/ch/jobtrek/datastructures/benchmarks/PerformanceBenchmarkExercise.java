@@ -80,6 +80,12 @@ public class PerformanceBenchmarkExercise {
      * @param count the number of elements to append (e.g. 1 000 000)
      */
     public static void appendElements(List<Integer> list, int count) {
+        // TODO: complete this method
+        // --sw-wipe--
+        for (int i = 0; i < count; i++) {
+            list.add(i);
+        }
+        // --sw-wipe--
     }
 
     /**
@@ -119,6 +125,14 @@ public class PerformanceBenchmarkExercise {
      * @return the sum of all elements
      */
     public static long sumByIndex(List<Integer> list) {
+        // TODO: complete this method
+        // --sw-wipe--
+        long sum = 0;
+        for (int i = 0; i < list.size(); i++) {
+            sum += list.get(i);
+        }
+        return sum;
+        // --sw-wipe--
     }
 
     /**
@@ -160,5 +174,15 @@ public class PerformanceBenchmarkExercise {
      * @return the number of queries found in the collection
      */
     public static int countHits(Collection<Integer> collection, List<Integer> queries) {
+        // TODO: complete this method
+        // --sw-wipe--
+        int hits = 0;
+        for (int query : queries) {
+            if (collection.contains(query)) {
+                hits++;
+            }
+        }
+        return hits;
+        // --sw-wipe--
     }
 }

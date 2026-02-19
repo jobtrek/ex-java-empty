@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.0.2](https://github.com/jobtrek/ex-java/compare/v1.0.1...v1.0.2) (2026-02-19)
+
+
+### Miscellaneous Chores
+
+* add TODO comments for students ([aeb7641](https://github.com/jobtrek/ex-java/commit/aeb7641bd235130589d4439a1c35857ffe28dad3))
+* **main:** release 1.0.2-SNAPSHOT ([#43](https://github.com/jobtrek/ex-java/issues/43)) ([26b0dda](https://github.com/jobtrek/ex-java/commit/26b0ddab91cbca6bb7aecd3498753d812701afca))
+
+
+### Build System
+
+* update sw ([a25cd32](https://github.com/jobtrek/ex-java/commit/a25cd32f09a1dbe47641b31a7ea00f94923c9d33))
+
 ## [1.0.1](https://github.com/jobtrek/ex-java/compare/v1.0.0...v1.0.1) (2026-02-19)
 
 

@@ -70,6 +70,10 @@ public class SetStructuresExercise {
      * @return a HashSet containing only the unique strings
      */
     public static HashSet<String> deduplicateWithHashSet(List<String> input) {
+        // TODO: complete this method
+        // --sw-wipe--
+        return new HashSet<>(input);
+        // --sw-wipe--
     }
 
     /**
@@ -95,6 +99,12 @@ public class SetStructuresExercise {
      * @return a new set containing only elements present in both sets
      */
     public static Set<String> computeIntersection(Set<String> setA, Set<String> setB) {
+        // TODO: complete this method
+        // --sw-wipe--
+        var result = new HashSet<>(setA);
+        result.retainAll(setB);
+        return result;
+        // --sw-wipe--
     }
 
     /**
@@ -120,6 +130,12 @@ public class SetStructuresExercise {
      * @return a new set containing all elements from both sets
      */
     public static Set<String> computeUnion(Set<String> setA, Set<String> setB) {
+        // TODO: complete this method
+        // --sw-wipe--
+        var result = new HashSet<>(setA);
+        result.addAll(setB);
+        return result;
+        // --sw-wipe--
     }
 
     /**
@@ -154,6 +170,12 @@ public class SetStructuresExercise {
      * @return a new set containing elements in {@code setA} that are not in {@code setB}
      */
     public static Set<String> computeDifference(Set<String> setA, Set<String> setB) {
+        // TODO: complete this method
+        // --sw-wipe--
+        var result = new HashSet<>(setA);
+        result.removeAll(setB);
+        return result;
+        // --sw-wipe--
     }
 
     /**
@@ -193,5 +215,18 @@ public class SetStructuresExercise {
      * @return the closest coordinate value in the set
      */
     public static Double findClosest(TreeSet<Double> coordinates, double target) {
+        // TODO: complete this method
+        // --sw-wipe--
+        Double ceiling = coordinates.ceiling(target);
+        Double floor = coordinates.floor(target);
+
+        if (ceiling == null) return floor;
+        if (floor == null) return ceiling;
+
+        double diffCeiling = Math.abs(ceiling - target);
+        double diffFloor = Math.abs(floor - target);
+
+        return diffFloor <= diffCeiling ? floor : ceiling;
+        // --sw-wipe--
     }
 }

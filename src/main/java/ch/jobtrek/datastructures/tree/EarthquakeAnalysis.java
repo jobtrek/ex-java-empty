@@ -37,6 +37,14 @@ public class EarthquakeAnalysis {
      * @return a populated BinarySearchTree
      */
     public static BinarySearchTree<Earthquake> buildTree(List<Earthquake> quakes) {
+        // TODO: complete this method
+        // --sw-wipe--
+        var tree = new BinarySearchTree<Earthquake>();
+        for (Earthquake quake : quakes) {
+            tree.insert(quake);
+        }
+        return tree;
+        // --sw-wipe--
     }
 
     /**
@@ -60,6 +68,10 @@ public class EarthquakeAnalysis {
      * @return the earthquake with the highest magnitude, or null if empty
      */
     public static Earthquake findLargestMagnitude(BinarySearchTree<Earthquake> tree) {
+        // TODO: complete this method
+        // --sw-wipe--
+        return tree.findMax();
+        // --sw-wipe--
     }
 
     /**
@@ -83,5 +95,11 @@ public class EarthquakeAnalysis {
      * @return a list of earthquakes sorted by magnitude ascending
      */
     public static List<Earthquake> getSortedByMagnitude(BinarySearchTree<Earthquake> tree) {
+        // TODO: complete this method
+        // --sw-wipe--
+        var result = new ArrayList<Earthquake>();
+        tree.inOrderTraversal(result);
+        return result;
+        // --sw-wipe--
     }
 }

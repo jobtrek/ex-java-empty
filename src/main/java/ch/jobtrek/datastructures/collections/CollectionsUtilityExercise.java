@@ -52,6 +52,10 @@ public class CollectionsUtilityExercise {
      * @param students the mutable list of students to sort in-place
      */
     public static void sortStudentsByGrade(List<Student> students) {
+        // TODO: complete this method
+        // --sw-wipe--
+        Collections.sort(students, Comparator.comparingDouble(Student::grade));
+        // --sw-wipe--
     }
 
     /**
@@ -83,6 +87,10 @@ public class CollectionsUtilityExercise {
      * @return the index of the target, or a negative value if not found
      */
     public static int findStudent(List<Student> sortedStudents, Student target) {
+        // TODO: complete this method
+        // --sw-wipe--
+        return Collections.binarySearch(sortedStudents, target, Comparator.comparingDouble(Student::grade));
+        // --sw-wipe--
     }
 
     /**
@@ -109,6 +117,10 @@ public class CollectionsUtilityExercise {
      * @return an unmodifiable view of the list
      */
     public static List<Student> makeUnmodifiable(List<Student> students) {
+        // TODO: complete this method
+        // --sw-wipe--
+        return Collections.unmodifiableList(students);
+        // --sw-wipe--
     }
 
     /**
@@ -135,6 +147,10 @@ public class CollectionsUtilityExercise {
      * @return a {@link SequencedSet} that preserves insertion order
      */
     public static SequencedSet<String> createSequencedSetFromMap(LinkedHashMap<String, Boolean> map) {
+        // TODO: complete this method
+        // --sw-wipe--
+        return Collections.newSequencedSetFromMap(map);
+        // --sw-wipe--
     }
 
     /**
@@ -163,5 +179,10 @@ public class CollectionsUtilityExercise {
      * @param distance the rotation distance (positive = toward end)
      */
     public static void shuffleAndRotate(List<Student> students, int distance) {
+        // TODO: complete this method
+        // --sw-wipe--
+        Collections.shuffle(students);
+        Collections.rotate(students, distance);
+        // --sw-wipe--
     }
 }

@@ -87,11 +87,21 @@ public class BinarySearchTree<T extends Comparable<T>> {
         this.root = insertRec(this.root, value);
     }
 
-    // =================================================================
-    // Exercise methods — implement these
-    // =================================================================
-
     private Node<T> insertRec(Node<T> node, T value) {
+        // TODO: complete this method
+        // --sw-wipe--
+        if (node == null) {
+            return new Node<>(value);
+        }
+        int cmp = value.compareTo(node.value);
+        if (cmp < 0) {
+            node.left = insertRec(node.left, value);
+        } else if (cmp > 0) {
+            node.right = insertRec(node.right, value);
+        }
+        // cmp == 0: duplicate, do nothing
+        return node;
+        // --sw-wipe--
     }
 
     /**
@@ -123,6 +133,13 @@ public class BinarySearchTree<T extends Comparable<T>> {
     }
 
     private void inOrderRec(Node<T> node, List<T> result) {
+        // TODO: complete this method
+        // --sw-wipe--
+        if (node == null) return;
+        inOrderRec(node.left, result);
+        result.add(node.value);
+        inOrderRec(node.right, result);
+        // --sw-wipe--
     }
 
     /**
@@ -146,6 +163,11 @@ public class BinarySearchTree<T extends Comparable<T>> {
     }
 
     private int sizeRec(Node<T> node) {
+        // TODO: complete this method
+        // --sw-wipe--
+        if (node == null) return 0;
+        return 1 + sizeRec(node.left) + sizeRec(node.right);
+        // --sw-wipe--
     }
 
     /**
@@ -173,6 +195,11 @@ public class BinarySearchTree<T extends Comparable<T>> {
     }
 
     private int heightRec(Node<T> node) {
+        // TODO: complete this method
+        // --sw-wipe--
+        if (node == null) return -1;
+        return 1 + Math.max(heightRec(node.left), heightRec(node.right));
+        // --sw-wipe--
     }
 
     /**
@@ -195,6 +222,15 @@ public class BinarySearchTree<T extends Comparable<T>> {
      * @return the maximum value, or {@code null} if the tree is empty
      */
     public T findMax() {
+        // TODO: complete this method
+        // --sw-wipe--
+        if (root == null) return null;
+        Node<T> current = root;
+        while (current.right != null) {
+            current = current.right;
+        }
+        return current.value;
+        // --sw-wipe--
     }
 
     /**
@@ -225,6 +261,14 @@ public class BinarySearchTree<T extends Comparable<T>> {
     }
 
     private boolean containsRec(Node<T> node, T value) {
+        // TODO: complete this method
+        // --sw-wipe--
+        if (node == null) return false;
+        int cmp = value.compareTo(node.value);
+        if (cmp == 0) return true;
+        if (cmp < 0) return containsRec(node.left, value);
+        return containsRec(node.right, value);
+        // --sw-wipe--
     }
 
     /**

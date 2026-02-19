@@ -68,9 +68,9 @@ This style focuses on the flow of data transformation.
 List<String> passedStudents = allStudents
     .stream()
     .filter(student -> student.getGrade() >= 50)      // 1. Filter passing grades
-    .map(student -> student.getName().toUpperCase()) // 3. Extract name and transform to uppercase names
-    .sorted()                                       // 4. Sort alphabetically
-    .collect(Collectors.toList());                  // 5. Collect into a result list
+    .map(student -> student.getName().toUpperCase()) // 2. Extract name and transform to uppercase names
+    .sorted()                                       // 3. Sort alphabetically
+    .collect(Collectors.toList());                  // 4. Collect into a result list
 ```
 
 **Benefits:**

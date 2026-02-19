@@ -61,6 +61,14 @@ public class MapStructuresExercise {
      * @return a HashMap populated with the key-value pairs
      */
     public static HashMap<String, String> populateHashMap(List<String> keys, List<String> values) {
+        // TODO: complete this method
+        // --sw-wipe--
+        var map = new HashMap<String, String>();
+        for (int i = 0; i < keys.size(); i++) {
+            map.put(keys.get(i), values.get(i));
+        }
+        return map;
+        // --sw-wipe--
     }
 
     /**
@@ -88,6 +96,14 @@ public class MapStructuresExercise {
      * @return a TreeMap populated with the key-value pairs
      */
     public static TreeMap<String, String> populateTreeMap(List<String> keys, List<String> values) {
+        // TODO: complete this method
+        // --sw-wipe--
+        var map = new TreeMap<String, String>();
+        for (int i = 0; i < keys.size(); i++) {
+            map.put(keys.get(i), values.get(i));
+        }
+        return map;
+        // --sw-wipe--
     }
 
     /**
@@ -112,6 +128,14 @@ public class MapStructuresExercise {
      * @return a LinkedHashMap populated with the key-value pairs
      */
     public static LinkedHashMap<String, String> populateLinkedHashMap(List<String> keys, List<String> values) {
+        // TODO: complete this method
+        // --sw-wipe--
+        var map = new LinkedHashMap<String, String>();
+        for (int i = 0; i < keys.size(); i++) {
+            map.put(keys.get(i), values.get(i));
+        }
+        return map;
+        // --sw-wipe--
     }
 
     /**
@@ -150,6 +174,13 @@ public class MapStructuresExercise {
      */
     public static Map.Entry<String, Integer> buildFifoQueue(
             SequencedMap<String, Integer> map, List<String> keys, List<Integer> values) {
+        // TODO: complete this method
+        // --sw-wipe--
+        for (int i = 0; i < keys.size(); i++) {
+            map.putFirst(keys.get(i), values.get(i));
+        }
+        return map.pollLastEntry();
+        // --sw-wipe--
     }
 
     /**
@@ -172,6 +203,10 @@ public class MapStructuresExercise {
      * @return a reversed view of the map
      */
     public static SequencedMap<String, Integer> reverseMapView(SequencedMap<String, Integer> map) {
+        // TODO: complete this method
+        // --sw-wipe--
+        return map.reversed();
+        // --sw-wipe--
     }
 
     /**
@@ -208,5 +243,13 @@ public class MapStructuresExercise {
      * @return a map of lower-case words to their occurrence count
      */
     public static HashMap<String, Integer> countWordFrequencies(List<String> words) {
+        // TODO: complete this method
+        // --sw-wipe--
+        var map = new HashMap<String, Integer>();
+        for (String word : words) {
+            map.merge(word.toLowerCase(), 1, Integer::sum);
+        }
+        return map;
+        // --sw-wipe--
     }
 }

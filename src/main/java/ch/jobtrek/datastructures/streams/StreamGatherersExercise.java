@@ -85,6 +85,12 @@ public class StreamGatherersExercise {
      * @return a new list containing only students with {@code grade >= minGrade}
      */
     public static List<Student> filterByGrade(List<Student> students, double minGrade) {
+        // TODO: complete this method
+        // --sw-wipe--
+        return students.stream()
+                       .filter(s -> s.grade() >= minGrade)
+                       .toList();
+        // --sw-wipe--
     }
 
     /**
@@ -113,6 +119,12 @@ public class StreamGatherersExercise {
      * @return a new list containing the name of each student, in encounter order
      */
     public static List<String> extractNames(List<Student> students) {
+        // TODO: complete this method
+        // --sw-wipe--
+        return students.stream()
+                       .map(Student::name)
+                       .toList();
+        // --sw-wipe--
     }
 
     /**
@@ -144,6 +156,13 @@ public class StreamGatherersExercise {
      * @return the average grade, or {@code 0.0} if the list is empty
      */
     public static double computeAverageGrade(List<Student> students) {
+        // TODO: complete this method
+        // --sw-wipe--
+        return students.stream()
+                       .mapToDouble(Student::grade)
+                       .average()
+                       .orElse(0.0);
+        // --sw-wipe--
     }
 
     /**
@@ -176,6 +195,11 @@ public class StreamGatherersExercise {
      */
     public static Map<Boolean, List<Student>> groupStudentsByPassFail(
             List<Student> students, double passingGrade) {
+        // TODO: complete this method
+        // --sw-wipe--
+        return students.stream()
+                       .collect(Collectors.partitioningBy(s -> s.grade() >= passingGrade));
+        // --sw-wipe--
     }
 
     /**
@@ -209,6 +233,11 @@ public class StreamGatherersExercise {
      * @return a map from each unique word to the number of times it appears
      */
     public static Map<String, Long> countWordFrequencies(List<String> words) {
+        // TODO: complete this method
+        // --sw-wipe--
+        return words.stream()
+                    .collect(Collectors.groupingBy(word -> word, Collectors.counting()));
+        // --sw-wipe--
     }
 
     // =======================================================================
@@ -248,6 +277,12 @@ public class StreamGatherersExercise {
      * @return a list of batches, where each batch is a sub-list of emails
      */
     public static List<List<String>> batchEmailRecords(List<String> emails, int batchSize) {
+        // TODO: complete this method
+        // --sw-wipe--
+        return emails.stream()
+                     .gather(Gatherers.windowFixed(batchSize))
+                     .toList();
+        // --sw-wipe--
     }
 
     /**
@@ -285,6 +320,12 @@ public class StreamGatherersExercise {
      * @return a list of running balances with one entry per input transaction
      */
     public static List<Integer> computeRunningBalance(List<Integer> transactions) {
+        // TODO: complete this method
+        // --sw-wipe--
+        return transactions.stream()
+                           .gather(Gatherers.scan(() -> 0, Integer::sum))
+                           .toList();
+        // --sw-wipe--
     }
 
     /**
@@ -322,6 +363,16 @@ public class StreamGatherersExercise {
      * @return a list of moving averages, one per sliding window
      */
     public static List<Double> computeMovingAverage(List<Double> temperatures, int windowSize) {
+        // TODO: complete this method
+        // --sw-wipe--
+        return temperatures.stream()
+                           .gather(Gatherers.windowSliding(windowSize))
+                           .map(window -> window.stream()
+                                                .mapToDouble(Double::doubleValue)
+                                                .average()
+                                                .orElse(0.0))
+                           .toList();
+        // --sw-wipe--
     }
 
     /**
@@ -369,5 +420,22 @@ public class StreamGatherersExercise {
      * @return a new list with consecutive duplicate elements removed
      */
     public static <T> List<T> deduplicateConsecutive(List<T> input) {
+        // TODO: complete this method
+        // --sw-wipe--
+        var lastSeen = new AtomicReference<T>(null);
+        var gatherer = Gatherer.<T, AtomicReference<T>, T>ofSequential(
+                () -> lastSeen,
+                Gatherer.Integrator.ofGreedy((state, element, downstream) -> {
+                    if (!element.equals(state.get())) {
+                        downstream.push(element);
+                    }
+                    state.set(element);
+                    return true;
+                })
+        );
+        return input.stream()
+                    .gather(gatherer)
+                    .toList();
+        // --sw-wipe--
     }
 }
