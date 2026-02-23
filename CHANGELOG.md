@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.0.4](https://github.com/jobtrek/ex-java/compare/v1.0.3...v1.0.4) (2026-02-23)
+
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump org.apache.maven.plugins:maven-compiler-plugin ([#48](https://github.com/jobtrek/ex-java/issues/48)) ([4c581eb](https://github.com/jobtrek/ex-java/commit/4c581eb13448476ea3ea4cf77e1719caa0cd015d))
+* **deps-dev:** bump org.apache.maven.plugins:maven-surefire-plugin ([#49](https://github.com/jobtrek/ex-java/issues/49)) ([175ddc3](https://github.com/jobtrek/ex-java/commit/175ddc3d2dfc4fa123027b7d1fcb9c4cb8ec16eb))
+* **deps-dev:** bump org.junit.jupiter:junit-jupiter ([#50](https://github.com/jobtrek/ex-java/issues/50)) ([50a51e2](https://github.com/jobtrek/ex-java/commit/50a51e2b6c61a959c5a0feb90616ead20e916116))
+* **main:** release 1.0.4-SNAPSHOT ([#47](https://github.com/jobtrek/ex-java/issues/47)) ([49a661a](https://github.com/jobtrek/ex-java/commit/49a661a6b746f248f9257a54ca8ea7b9f3d02673))
+
 ## [1.0.3](https://github.com/jobtrek/ex-java/compare/v1.0.2...v1.0.3) (2026-02-19)
 
 
