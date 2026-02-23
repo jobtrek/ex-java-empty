@@ -1,6 +1,6 @@
 # Java Data Structures Exercises
 
-**v1.0.3 :** [Read changelog](./CHANGELOG.md) <!-- x-release-please-version -->
+**v1.0.4 :** [Read changelog](./CHANGELOG.md) <!-- x-release-please-version -->
 
 This repo contains some exercises to help you learn how data structures work. The code is written in Java, but remember
 that Data Structures are not language dependent, these concepts
