@@ -13,7 +13,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.within;
 
 /**
- * Tests for Module 6 — Streams and Stream Gatherers.
+ * Tests for Module 10 — Streams and Stream Gatherers.
  *
  * <p>Group A (Exercises 1–5) verifies the fundamental Stream operations:
  * filtering, mapping, numeric reduction, partitioning, and frequency analysis.</p>
@@ -22,7 +22,7 @@ import static org.assertj.core.api.Assertions.within;
  * fixed-window batching, running balance, sliding moving average, and
  * consecutive deduplication.</p>
  */
-@DisplayName("Module 6 — Streams and Stream Gatherers")
+@DisplayName("Module 10 — Streams and Stream Gatherers")
 class StreamGatherersTest {
 
     // -----------------------------------------------------------------------

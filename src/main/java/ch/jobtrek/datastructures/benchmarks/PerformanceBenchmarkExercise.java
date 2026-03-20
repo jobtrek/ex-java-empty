@@ -4,7 +4,7 @@ import java.util.Collection;
 import java.util.List;
 
 /**
- * <h1>Module 6 — Performance Benchmarks: Theory vs Reality</h1>
+ * <h1>Module 9 — Performance Benchmarks: Theory vs Reality</h1>
  *
  * <p>Big-O notation tells you how an algorithm <em>scales</em>, but it says nothing
  * about the constant factors that dominate real-world performance: CPU cache misses,

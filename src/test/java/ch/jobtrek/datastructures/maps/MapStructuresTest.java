@@ -15,12 +15,12 @@ import java.util.TreeMap;
 import static org.assertj.core.api.Assertions.assertThat;
 
 /**
- * Tests for Module 3 — Key-Value Associations and Hash Mechanics.
+ * Tests for Module 6 — Key-Value Associations and Hash Mechanics.
  *
  * <p>These tests verify encounter order differences between HashMap, TreeMap,
  * and LinkedHashMap, as well as the SequencedMap API for FIFO and reverse operations.</p>
  */
-@DisplayName("Module 3 — Maps")
+@DisplayName("Module 6 — Maps")
 class MapStructuresTest {
 
     // Keys deliberately NOT in alphabetical order to expose ordering differences

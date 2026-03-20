@@ -3,7 +3,7 @@ package ch.jobtrek.datastructures.collections;
 import java.util.*;
 
 /**
- * <h1>Module 2 — The Collections Utility Architecture and Polymorphic Algorithms</h1>
+ * <h1>Module 5 — The Collections Utility Architecture and Polymorphic Algorithms</h1>
  *
  * <p>The {@link java.util.Collections} utility class provides a centralized repository
  * of static, polymorphic algorithms that operate seamlessly across diverse collection

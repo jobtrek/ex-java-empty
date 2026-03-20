@@ -10,7 +10,7 @@ import java.util.stream.Gatherer;
 import java.util.stream.Gatherers;
 
 /**
- * <h1>Module 6 — Streams and Stream Gatherers</h1>
+ * <h1>Module 10 — Streams and Stream Gatherers</h1>
  *
  * <p>This module introduces two complementary halves of modern Java data processing:</p>
  *
