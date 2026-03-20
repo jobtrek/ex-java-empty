@@ -1,49 +1,58 @@
-# Java Data Structures Exercises
+# Java Exercises
 
-**v1.0.4 :** [Read changelog](./CHANGELOG.md) <!-- x-release-please-version -->
+**v1.1.2 :** [Read changelog](./CHANGELOG.md) <!-- x-release-please-version -->
 
-This repo contains some exercises to help you learn how data structures work. The code is written in Java, but remember
-that Data Structures are not language dependent, these concepts
-are shared by all languages. Sometimes the implementation and performance can differ, but the underlying principles are
-the same.
+This repo contains guided exercises to learn Java from the ground up. It starts with Java syntax and OOP basics, then
+moves on to data structures and performance trade-offs. The concepts covered are broadly applicable — data structures
+exist in every language, and the principles are the same even when syntax or performance differs.
 
 ## Prerequisites
 
 - Java 25+ (installed on your system or from your IDE)
 - Maven 3.6+ (installed on your system or from your IDE)
-- Java syntax basics knowledge
-- Basic understanding of algorithmic complexity https://en.wikipedia.org/wiki/Big_O_notation
-- Basic understanding of data structures https://en.wikipedia.org/wiki/Data_structure
+- Some experience with at least one programming language (JavaScript, TypeScript, Python, or PHP)
 
 ## Getting Started
 
 - Clone this repository
 - Open it with your favorite IDE (IntelliJ, Eclipse, NetBeans...)
-- Run the tests (`mvn test`), they should all fail at the moment, don't worry you will resolve them.
-- Solve the exercises.
+- Run the tests (`mvn test`), they should all fail at the moment — don't worry, you will resolve them.
+- Solve the exercises in order, starting from Module 1.
 
-> The exercises comments are written with Javadoc syntax, depending on your IDE you can display them in pretty format
-> (HTML rendered). Example, in IntelliJ, use the button in the margin to toggle pretty print.
+> The exercise comments are written with Javadoc syntax. Depending on your IDE you can display them in a pretty format
+> (HTML rendered). In IntelliJ, use the button in the margin to toggle the rendered view.
 
 ## Theory
 
-Before starting the exercises, I encourage you to read the introduction of the concepts covered in the exercises.
+Before starting the exercises, read the relevant background articles:
 
-- [What is big O notation](docs/01-big-o-notation.md)
+- [Java for Web Developers](docs/00-java-introduction.md), read this first if you are new to Java
+- [What is big O notation](docs/01-big-o-notation.md), read when starting data structures exercises
 - [Data Structures](docs/02-data-structures-overview.md)
-- [Streams vs loops (only if you make the bonus exercises)](docs/03-streams-vs-loops.md)
+- [Streams vs loops (bonus only)](docs/03-streams-vs-loops.md)
 
 ## Exercises
 
-> **Important:** Carefully read the test outputs, as they contain explanations about the performance of these data
-> structures.
+### Java Basics (Modules 1–3)
 
-- [Lists](./src/main/java/ch/jobtrek/datastructures/linear)
-- [Collections](./src/main/java/ch/jobtrek/datastructures/collections)
-- [Maps](./src/main/java/ch/jobtrek/datastructures/maps)
-- [Sets](./src/main/java/ch/jobtrek/datastructures/sets)
-- [Trees](./src/main/java/ch/jobtrek/datastructures/tree)
-- [Inspecting performance](./src/main/java/ch/jobtrek/datastructures/benchmarks)
+Start here if you are new to Java. These modules introduce the language syntax and OOP fundamentals,
+with comparisons to JavaScript, TypeScript, Python, and PHP.
+
+- **Module 1**, [Java Syntax for Web Developers](./src/main/java/ch/jobtrek/basics/syntax): variables, control flow, loops, string formatting
+- **Module 2**, [Java's Type System](./src/main/java/ch/jobtrek/basics/types): primitives, arrays, casting, null safety
+- **Module 3**, [OOP Basics](./src/main/java/ch/jobtrek/basics/oop): classes, encapsulation, constructors, `toString()`
+
+### Data Structures (Modules 4–9)
+
+> **Important:** Read the test output carefully — it includes timing results and explanations about
+> real-world performance differences between data structures.
+
+- **Module 4**, [Lists](./src/main/java/ch/jobtrek/datastructures/linear): ArrayList vs LinkedList, cache locality
+- **Module 5**, [Collections](./src/main/java/ch/jobtrek/datastructures/collections): sorting, searching, unmodifiable views
+- **Module 6**, [Maps](./src/main/java/ch/jobtrek/datastructures/maps): HashMap, LinkedHashMap, TreeMap
+- **Module 7**, [Sets](./src/main/java/ch/jobtrek/datastructures/sets): uniqueness, union, intersection, difference
+- **Module 8**, [Trees](./src/main/java/ch/jobtrek/datastructures/tree): binary search tree, real-world analysis
+- **Module 9**, [Performance Benchmarks](./src/main/java/ch/jobtrek/datastructures/benchmarks): measuring theory vs reality
 
 Run the tests with `mvn test`, or directly from your IDE.
 
@@ -51,4 +60,4 @@ Run the tests with `mvn test`, or directly from your IDE.
 
 More advanced topics, not mandatory.
 
-- [Streams and Gatherers](./src/main/java/ch/jobtrek/datastructures/streams)
+- **Module 10**, [Streams and Gatherers](./src/main/java/ch/jobtrek/datastructures/streams): Stream API, custom gatherers (Java 24+)

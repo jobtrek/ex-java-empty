@@ -13,7 +13,7 @@ import java.util.TreeSet;
 import static org.assertj.core.api.Assertions.assertThat;
 
 /**
- * Tests for Module 6 — Performance Benchmarks.
+ * Tests for Module 9 — Performance Benchmarks.
  *
  * <p>Each nested class contains <strong>correctness tests</strong> (to verify
  * the student's implementation) and one <strong>benchmark test</strong> that
@@ -22,7 +22,7 @@ import static org.assertj.core.api.Assertions.assertThat;
  * <p>Read the console output after running the tests — the comparison tables
  * are the core learning material of this module.</p>
  */
-@DisplayName("Module 6 — Performance Benchmarks")
+@DisplayName("Module 9 — Performance Benchmarks")
 class PerformanceBenchmarkTest {
 
     // ---------------------------------------------------------------

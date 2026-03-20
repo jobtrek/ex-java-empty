@@ -6,7 +6,7 @@ import java.util.Set;
 import java.util.TreeSet;
 
 /**
- * <h1>Module 4 — Set Semantics and Uniqueness Guarantees</h1>
+ * <h1>Module 7 — Set Semantics and Uniqueness Guarantees</h1>
  *
  * <p>A {@link Set} is a collection that contains <strong>no duplicate elements</strong>,
  * enforcing data uniqueness at the structural level. This module clarifies a common

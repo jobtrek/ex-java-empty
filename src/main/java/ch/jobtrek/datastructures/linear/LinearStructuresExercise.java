@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * <h1>Module 1 — Linear Data Structures: ArrayList vs LinkedList</h1>
+ * <h1>Module 4 — Linear Data Structures: ArrayList vs LinkedList</h1>
  *
  * <p>This exercise explores the fundamental differences between contiguous-memory
  * lists ({@link ArrayList}) and node-based lists ({@link LinkedList}). You will

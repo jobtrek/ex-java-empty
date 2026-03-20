@@ -11,12 +11,12 @@ import java.util.List;
 import static org.assertj.core.api.Assertions.assertThat;
 
 /**
- * Tests for Module 5 — Binary Search Tree.
+ * Tests for Module 8 — Binary Search Tree.
  *
  * <p>These tests verify insertion, in-order traversal, size, height,
  * findMax, and contains operations on the custom BST implementation.</p>
  */
-@DisplayName("Module 5 — Binary Search Tree")
+@DisplayName("Module 8 — Binary Search Tree")
 class BinarySearchTreeTest {
 
     private BinarySearchTree<Integer> tree;

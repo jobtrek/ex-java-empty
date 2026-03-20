@@ -13,12 +13,12 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
 /**
- * Tests for Module 2 — Collections Utility.
+ * Tests for Module 5 — Collections Utility.
  *
  * <p>These tests verify sorting, binary search, immutability enforcement,
  * sequenced set creation, and utility transformations.</p>
  */
-@DisplayName("Module 2 — Collections Utility")
+@DisplayName("Module 5 — Collections Utility")
 class CollectionsUtilityTest {
 
     // Reusable test data

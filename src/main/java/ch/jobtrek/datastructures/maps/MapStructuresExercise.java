@@ -3,7 +3,7 @@ package ch.jobtrek.datastructures.maps;
 import java.util.*;
 
 /**
- * <h1>Module 3 — Key-Value Associations and Hash Mechanics</h1>
+ * <h1>Module 6 — Key-Value Associations and Hash Mechanics</h1>
  *
  * <p>The {@link Map} interface maps unique keys to values. This module dissects the
  * three primary Map implementations and the modern {@link SequencedMap} interface:</p>

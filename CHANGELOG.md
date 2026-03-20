@@ -1,5 +1,145 @@
 # Changelog
 
+## [1.1.2](https://github.com/jobtrek/ex-java/compare/v1.1.1...v1.1.2) (2026-03-20)
+
+
+### Miscellaneous Chores
+
+* **main:** release 1.1.2-SNAPSHOT ([#57](https://github.com/jobtrek/ex-java/issues/57)) ([2e3bcc0](https://github.com/jobtrek/ex-java/commit/2e3bcc0a8bb260ff2ef35fd63c35b0dd9d50e72e))
+
+## [1.1.1](https://github.com/jobtrek/ex-java/compare/v1.1.0...v1.1.1) (2026-03-20)
+
+
+### Features
+
+* 3 new ex chapters ([a13af37](https://github.com/jobtrek/ex-java/commit/a13af37be0a7e15c92e77758ebe3ea89649ae267))
+* add release please action ([ef4cb8b](https://github.com/jobtrek/ex-java/commit/ef4cb8b6b2ce51437dd0d0da2074daf40cab5a22))
+* add release please configuration file ([7b245b5](https://github.com/jobtrek/ex-java/commit/7b245b5cb7365670713bd17b8a0c7496108e3db2))
+* add release please manifest ([665cf15](https://github.com/jobtrek/ex-java/commit/665cf15768744b1915f68ee9e8e22a9a9529ff93))
+* add version in readme with changelog link ([9655789](https://github.com/jobtrek/ex-java/commit/96557891be4592d54adf001c3cb9120d1a6c4a79))
+* **collections:** add ex + test ([3cce2b5](https://github.com/jobtrek/ex-java/commit/3cce2b50b3a1cf6d17f84407dce933f813f77f1f))
+* ex refinements and oop addings ([0ae0e86](https://github.com/jobtrek/ex-java/commit/0ae0e866a6cb754308cf5b4e351397ff7a1923a4))
+* implement ex solutions ([d657756](https://github.com/jobtrek/ex-java/commit/d65775638a351f3691d34c56ef2c7dd26051de50))
+* implement new ex and refinements ([c0719ae](https://github.com/jobtrek/ex-java/commit/c0719ae68da68d0acb44f745041ca8a42da28238))
+* **linear_lists:** add emply ex with tests ([d7b7c1d](https://github.com/jobtrek/ex-java/commit/d7b7c1d212952572ebc320243d6c4186c1bad954))
+* **map:** ex + tests ([076dbd5](https://github.com/jobtrek/ex-java/commit/076dbd578eb5d3ad1b039a3e32d9245a577a6aee))
+* new ex to explore perf concerns ([cf590b0](https://github.com/jobtrek/ex-java/commit/cf590b05d0b16a3416b5b908802160259645eed9))
+* **set:** ex + tests ([e9b314a](https://github.com/jobtrek/ex-java/commit/e9b314a511005e235e42d893e01a1b2d02a02e84))
+* **streams:** add exercices for streams ([530113f](https://github.com/jobtrek/ex-java/commit/530113f7906e824ed55c8c9344fa6af364e59228))
+* **tree:** ex + test ([d32dcdc](https://github.com/jobtrek/ex-java/commit/d32dcdcf0f51790a36ee20c64e1e26d80e0d37d9))
+
+
+### Bug Fixes
+
+* null checks ([d83a16a](https://github.com/jobtrek/ex-java/commit/d83a16aaff36050885b24124066ca42a022b6253))
+* remove idea folder ([f53618c](https://github.com/jobtrek/ex-java/commit/f53618ced3593147ba4427d7b2fbdb9a24b9c242))
+
+
+### Miscellaneous Chores
+
+* add dependabot configuration ([eeae54b](https://github.com/jobtrek/ex-java/commit/eeae54b0fa886a51473e23e9d785f875dae4b3b1))
+* add licence ([59cd032](https://github.com/jobtrek/ex-java/commit/59cd03234585e5ce6f0c7fb2f0e36a0fcb006ce1))
+* add TODO comments for students ([aeb7641](https://github.com/jobtrek/ex-java/commit/aeb7641bd235130589d4439a1c35857ffe28dad3))
+* add wipe comment for script to remove soluions ([4526964](https://github.com/jobtrek/ex-java/commit/45269644ddc283df63f35859ba5b3101cea2ed55))
+* bump to 1 for these new ex ([8e044f2](https://github.com/jobtrek/ex-java/commit/8e044f27000e667f64cbeb056668e6b1fc314de4))
+* cleanup ([0de6bc1](https://github.com/jobtrek/ex-java/commit/0de6bc1ed235a0530b9d4982b4107ac7a9631706))
+* **deps-dev:** bump org.apache.maven.plugins:maven-compiler-plugin ([#48](https://github.com/jobtrek/ex-java/issues/48)) ([4c581eb](https://github.com/jobtrek/ex-java/commit/4c581eb13448476ea3ea4cf77e1719caa0cd015d))
+* **deps-dev:** bump org.apache.maven.plugins:maven-surefire-plugin ([#49](https://github.com/jobtrek/ex-java/issues/49)) ([175ddc3](https://github.com/jobtrek/ex-java/commit/175ddc3d2dfc4fa123027b7d1fcb9c4cb8ec16eb))
+* **deps-dev:** bump org.assertj:assertj-core from 3.27.3 to 3.27.7 ([#39](https://github.com/jobtrek/ex-java/issues/39)) ([1d4d422](https://github.com/jobtrek/ex-java/commit/1d4d4229b315922d48d6c62fa36e98d76aa45edd))
+* **deps-dev:** bump org.junit.jupiter:junit-jupiter ([#50](https://github.com/jobtrek/ex-java/issues/50)) ([50a51e2](https://github.com/jobtrek/ex-java/commit/50a51e2b6c61a959c5a0feb90616ead20e916116))
+* **deps:** bump org.assertj:assertj-core from 3.24.2 to 3.25.3 ([#1](https://github.com/jobtrek/ex-java/issues/1)) ([3736fb1](https://github.com/jobtrek/ex-java/commit/3736fb1d45ee9df6195b6d0a8266f5a833941c63))
+* **deps:** bump org.assertj:assertj-core from 3.25.3 to 3.26.0 ([#4](https://github.com/jobtrek/ex-java/issues/4)) ([ce7e93d](https://github.com/jobtrek/ex-java/commit/ce7e93d8a5eadeb682e4be29351049cec9ff4373))
+* **deps:** bump org.assertj:assertj-core from 3.26.0 to 3.26.3 ([#9](https://github.com/jobtrek/ex-java/issues/9)) ([0e09861](https://github.com/jobtrek/ex-java/commit/0e09861123037ef3fa27ce267bbdd214c9c0e539))
+* **deps:** bump org.assertj:assertj-core from 3.26.3 to 3.27.2 ([#18](https://github.com/jobtrek/ex-java/issues/18)) ([358f877](https://github.com/jobtrek/ex-java/commit/358f877b65a1e2384e48223e3f35ebcd9531a67d))
+* **deps:** bump org.assertj:assertj-core from 3.27.2 to 3.27.3 ([#19](https://github.com/jobtrek/ex-java/issues/19)) ([52d1258](https://github.com/jobtrek/ex-java/commit/52d1258a6258d0c71f7dc50c00e48fe833b3f521))
+* **deps:** bump org.assertj:assertj-core from 3.27.3 to 3.27.4 ([#30](https://github.com/jobtrek/ex-java/issues/30)) ([0482807](https://github.com/jobtrek/ex-java/commit/0482807346caa87694c485946b8d5eb9849bb61d))
+* **deps:** bump org.assertj:assertj-core from 3.27.4 to 3.27.5 ([#31](https://github.com/jobtrek/ex-java/issues/31)) ([7a7197b](https://github.com/jobtrek/ex-java/commit/7a7197b357dc93c15c8bdcefbebded7295aea42e))
+* **deps:** bump org.assertj:assertj-core from 3.27.5 to 3.27.6 ([#32](https://github.com/jobtrek/ex-java/issues/32)) ([e5436aa](https://github.com/jobtrek/ex-java/commit/e5436aa6e5c719f0e446b945c5347b17a64e6656))
+* **deps:** bump org.assertj:assertj-core from 3.27.6 to 3.27.7 ([#36](https://github.com/jobtrek/ex-java/issues/36)) ([2c99c56](https://github.com/jobtrek/ex-java/commit/2c99c56374897499570b47fb1e6db6fed7338e11))
+* **deps:** bump org.junit.jupiter:junit-jupiter from 5.10.0 to 5.10.2 ([#2](https://github.com/jobtrek/ex-java/issues/2)) ([47bdd47](https://github.com/jobtrek/ex-java/commit/47bdd475b6890b10c4c6542b2d6c92bd4aa5c665))
+* **deps:** bump org.junit.jupiter:junit-jupiter from 5.10.2 to 5.11.0 ([#10](https://github.com/jobtrek/ex-java/issues/10)) ([4293d8d](https://github.com/jobtrek/ex-java/commit/4293d8dc1531eb5c02737b462adf04bb22f724e4))
+* **deps:** bump org.junit.jupiter:junit-jupiter from 5.11.0 to 5.11.1 ([#13](https://github.com/jobtrek/ex-java/issues/13)) ([7307f6d](https://github.com/jobtrek/ex-java/commit/7307f6d132ff4d522d1a33bc260f2f0f02f8d43f))
+* **deps:** bump org.junit.jupiter:junit-jupiter from 5.11.1 to 5.11.2 ([#14](https://github.com/jobtrek/ex-java/issues/14)) ([05127dc](https://github.com/jobtrek/ex-java/commit/05127dcf38f0b8985093dddcd58c8a8364eb57d7))
+* **deps:** bump org.junit.jupiter:junit-jupiter from 5.11.2 to 5.11.3 ([#15](https://github.com/jobtrek/ex-java/issues/15)) ([200ff10](https://github.com/jobtrek/ex-java/commit/200ff10d59841c1ca877adf9a885456e5e504df1))
+* **deps:** bump org.junit.jupiter:junit-jupiter from 5.11.3 to 5.11.4 ([#17](https://github.com/jobtrek/ex-java/issues/17)) ([d5af82f](https://github.com/jobtrek/ex-java/commit/d5af82fb1a83e462905c69593921f134ec39eac4))
+* **deps:** bump org.junit.jupiter:junit-jupiter from 5.11.4 to 5.12.0 ([#20](https://github.com/jobtrek/ex-java/issues/20)) ([fc49e00](https://github.com/jobtrek/ex-java/commit/fc49e00a712a3fefcae0db82308713dd0b35b455))
+* **deps:** bump org.junit.jupiter:junit-jupiter from 5.12.0 to 5.12.1 ([#21](https://github.com/jobtrek/ex-java/issues/21)) ([75bd1e1](https://github.com/jobtrek/ex-java/commit/75bd1e1c4a6b4862845f8d26293d3b3e78e79cc5))
+* **deps:** bump org.junit.jupiter:junit-jupiter from 5.12.1 to 5.12.2 ([#22](https://github.com/jobtrek/ex-java/issues/22)) ([a3b2c4f](https://github.com/jobtrek/ex-java/commit/a3b2c4f3990c69589e1370ed7766a581a1942a84))
+* **deps:** bump org.junit.jupiter:junit-jupiter from 5.12.2 to 5.13.1 ([#26](https://github.com/jobtrek/ex-java/issues/26)) ([5d66e49](https://github.com/jobtrek/ex-java/commit/5d66e49969531dd19dce77caa189e6820e3aac41))
+* **deps:** bump org.junit.jupiter:junit-jupiter from 5.13.1 to 5.13.2 ([#27](https://github.com/jobtrek/ex-java/issues/27)) ([274dddd](https://github.com/jobtrek/ex-java/commit/274ddddfbd9ec65a87325a81a3ff857a0931e4a1))
+* **deps:** bump org.junit.jupiter:junit-jupiter from 5.13.2 to 5.13.3 ([#28](https://github.com/jobtrek/ex-java/issues/28)) ([bd7d66c](https://github.com/jobtrek/ex-java/commit/bd7d66c42dae2224e5434da6f8a67bdc735d8f7a))
+* **deps:** bump org.junit.jupiter:junit-jupiter from 5.13.3 to 5.13.4 ([#29](https://github.com/jobtrek/ex-java/issues/29)) ([8596938](https://github.com/jobtrek/ex-java/commit/859693802b1cba2402fb6110dd2c6b27e1af6887))
+* **deps:** bump org.junit.jupiter:junit-jupiter from 5.13.4 to 6.0.2 ([#35](https://github.com/jobtrek/ex-java/issues/35)) ([47c0c3b](https://github.com/jobtrek/ex-java/commit/47c0c3bff451cef8bb754362d59f594960ad37c3))
+* **deps:** bump org.junit.jupiter:junit-jupiter from 6.0.2 to 6.0.3 ([#37](https://github.com/jobtrek/ex-java/issues/37)) ([739905f](https://github.com/jobtrek/ex-java/commit/739905ffed8e106444d5e92a486087d778b47a03))
+* increase count ([63de084](https://github.com/jobtrek/ex-java/commit/63de084899bb6f1b55df30384e22e8238ed3163e))
+* **main:** release 0.2.1 ([#6](https://github.com/jobtrek/ex-java/issues/6)) ([c6fe942](https://github.com/jobtrek/ex-java/commit/c6fe942309a6c2514be24c18a3218cc465697162))
+* **main:** release 0.2.1-SNAPSHOT ([#5](https://github.com/jobtrek/ex-java/issues/5)) ([5d9e224](https://github.com/jobtrek/ex-java/commit/5d9e224b78c3a85cb731dcdc5e21e32860078f5f))
+* **main:** release 0.2.2 ([#11](https://github.com/jobtrek/ex-java/issues/11)) ([1f804fb](https://github.com/jobtrek/ex-java/commit/1f804fba8d430a6293edfc5668453d59570a425b))
+* **main:** release 0.2.2-SNAPSHOT ([#7](https://github.com/jobtrek/ex-java/issues/7)) ([898dee9](https://github.com/jobtrek/ex-java/commit/898dee9ccefd5adea880211e7e8038aa2389872a))
+* **main:** release 0.2.3 ([#23](https://github.com/jobtrek/ex-java/issues/23)) ([7bacc9f](https://github.com/jobtrek/ex-java/commit/7bacc9f88c09ba102c585b9e821ee340bd4a2728))
+* **main:** release 0.2.3-SNAPSHOT ([#12](https://github.com/jobtrek/ex-java/issues/12)) ([2c55ab6](https://github.com/jobtrek/ex-java/commit/2c55ab68c8e126d64182afc9e2ec71f06e3f4265))
+* **main:** release 0.2.4-SNAPSHOT ([#24](https://github.com/jobtrek/ex-java/issues/24)) ([524b1e3](https://github.com/jobtrek/ex-java/commit/524b1e3045398feb90daca4c9fba79541b2219e8))
+* **main:** release 1.0.0 ([#40](https://github.com/jobtrek/ex-java/issues/40)) ([f1f81a1](https://github.com/jobtrek/ex-java/commit/f1f81a18559a71a6ab3434ff148eb48a0d936197))
+* **main:** release 1.0.1 ([#42](https://github.com/jobtrek/ex-java/issues/42)) ([0a8a811](https://github.com/jobtrek/ex-java/commit/0a8a811f089ca5eb3bca4cf583041df88979e173))
+* **main:** release 1.0.1-SNAPSHOT ([#41](https://github.com/jobtrek/ex-java/issues/41)) ([45f6d18](https://github.com/jobtrek/ex-java/commit/45f6d18e855c885f98df552536f449835050c8af))
+* **main:** release 1.0.2 ([#44](https://github.com/jobtrek/ex-java/issues/44)) ([a6999da](https://github.com/jobtrek/ex-java/commit/a6999da12b5819486aa91508d721c22582e37fd4))
+* **main:** release 1.0.2-SNAPSHOT ([#43](https://github.com/jobtrek/ex-java/issues/43)) ([26b0dda](https://github.com/jobtrek/ex-java/commit/26b0ddab91cbca6bb7aecd3498753d812701afca))
+* **main:** release 1.0.3 ([#46](https://github.com/jobtrek/ex-java/issues/46)) ([fdd30e1](https://github.com/jobtrek/ex-java/commit/fdd30e1c69672c4e0eefb0d39c5c0e866a8ee266))
+* **main:** release 1.0.3-SNAPSHOT ([#45](https://github.com/jobtrek/ex-java/issues/45)) ([e2fa7a6](https://github.com/jobtrek/ex-java/commit/e2fa7a6a0c1a6b4728520ff3c07e8e1fc06fc118))
+* **main:** release 1.0.4 ([#51](https://github.com/jobtrek/ex-java/issues/51)) ([a932291](https://github.com/jobtrek/ex-java/commit/a932291b1be4c92812619818e9851d6ab9bf8539))
+* **main:** release 1.0.4-SNAPSHOT ([#47](https://github.com/jobtrek/ex-java/issues/47)) ([49a661a](https://github.com/jobtrek/ex-java/commit/49a661a6b746f248f9257a54ca8ea7b9f3d02673))
+* **main:** release 1.0.5-SNAPSHOT ([779825b](https://github.com/jobtrek/ex-java/commit/779825b4f174c8d7ed50cef91465abd09ad067a1))
+* **main:** release 1.0.5-SNAPSHOT ([a2dd932](https://github.com/jobtrek/ex-java/commit/a2dd93271e564c5670c5ea64f48227986519f7fa))
+* **main:** release 1.1.0 ([788a392](https://github.com/jobtrek/ex-java/commit/788a3922a0d75a405ae234e6e97e5834eec1218c))
+* **main:** release 1.1.0 ([f5cf368](https://github.com/jobtrek/ex-java/commit/f5cf368606b015f2d705c19e97aad22ec52832b0))
+* release 1.1.1 ([5e3560c](https://github.com/jobtrek/ex-java/commit/5e3560c4a5f9a09bcaf7fc123bc31152bd65669b))
+
+
+### Documentation
+
+* add base docs to help students ([3750771](https://github.com/jobtrek/ex-java/commit/3750771128b330c589cf9f8b92fc8253f03eba16))
+* add claude md ([0d17331](https://github.com/jobtrek/ex-java/commit/0d17331d7ae060698c5373d48e68bd96ee1fa834))
+* add links to theory and exercises documentation ([df3e640](https://github.com/jobtrek/ex-java/commit/df3e64074b11a859371004ff1d67ca483200b502))
+* add streams ex link ([020ae08](https://github.com/jobtrek/ex-java/commit/020ae088eb3a3dd460848ffbe4ccdec212b3bfdd))
+* details about tests ([051f872](https://github.com/jobtrek/ex-java/commit/051f872e45cf02faf2a31da4d699bc04b2c5827d))
+* fix links in readme ([e2eedae](https://github.com/jobtrek/ex-java/commit/e2eedae10efc0f9873c4711ac781be28d5dbfb36))
+* update readme for new structure ([35721ec](https://github.com/jobtrek/ex-java/commit/35721ecd205b2bf5297cf66205aef75a44e97a68))
+
+
+### Build System
+
+* update sw ([a25cd32](https://github.com/jobtrek/ex-java/commit/a25cd32f09a1dbe47641b31a7ea00f94923c9d33))
+
+
+### Continuous Integration
+
+* setup solution wiper for empty ex creation ([04e097a](https://github.com/jobtrek/ex-java/commit/04e097a6087f66f3f8646343d850055d70e4188e))
+* update sw to 1.2.1 (fix bugs) ([1a6a605](https://github.com/jobtrek/ex-java/commit/1a6a60571a87d8b19d74d9a154fe15a8cfcb13fb))
+
+## [1.1.0](https://github.com/jobtrek/ex-java/compare/v1.0.4...v1.1.0) (2026-03-20)
+
+
+### Features
+
+* 3 new ex chapters ([a13af37](https://github.com/jobtrek/ex-java/commit/a13af37be0a7e15c92e77758ebe3ea89649ae267))
+* ex refinements and oop addings ([0ae0e86](https://github.com/jobtrek/ex-java/commit/0ae0e866a6cb754308cf5b4e351397ff7a1923a4))
+
+
+### Bug Fixes
+
+* null checks ([d83a16a](https://github.com/jobtrek/ex-java/commit/d83a16aaff36050885b24124066ca42a022b6253))
+
+
+### Miscellaneous Chores
+
+* **main:** release 1.0.5-SNAPSHOT ([779825b](https://github.com/jobtrek/ex-java/commit/779825b4f174c8d7ed50cef91465abd09ad067a1))
+* **main:** release 1.0.5-SNAPSHOT ([a2dd932](https://github.com/jobtrek/ex-java/commit/a2dd93271e564c5670c5ea64f48227986519f7fa))
+
+
+### Documentation
+
+* add claude md ([0d17331](https://github.com/jobtrek/ex-java/commit/0d17331d7ae060698c5373d48e68bd96ee1fa834))
+
 ## [1.0.4](https://github.com/jobtrek/ex-java/compare/v1.0.3...v1.0.4) (2026-02-23)
 
 

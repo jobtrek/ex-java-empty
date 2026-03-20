@@ -13,12 +13,12 @@ import java.util.TreeSet;
 import static org.assertj.core.api.Assertions.assertThat;
 
 /**
- * Tests for Module 4 — Set Semantics and Uniqueness Guarantees.
+ * Tests for Module 7 — Set Semantics and Uniqueness Guarantees.
  *
  * <p>These tests verify deduplication, mathematical set operations (intersection,
  * union), and O(log n) proximity search via NavigableSet.</p>
  */
-@DisplayName("Module 4 — Sets")
+@DisplayName("Module 7 — Sets")
 class SetStructuresTest {
 
     // ---------------------------------------------------------------

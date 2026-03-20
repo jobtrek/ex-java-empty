@@ -14,7 +14,7 @@ import static org.assertj.core.api.Assertions.assertThat;
  * <p>These tests verify that students can use their {@link BinarySearchTree}
  * implementation to store and query real-world earthquake data.</p>
  */
-@DisplayName("Module 5 — Earthquake Analysis")
+@DisplayName("Module 8 — Earthquake Analysis")
 class EarthquakeAnalysisTest {
 
     // Sample earthquake data (magnitudes are deliberately unordered)

@@ -11,13 +11,13 @@ import java.util.List;
 import static org.assertj.core.api.Assertions.assertThat;
 
 /**
- * Tests for Module 1 — Linear Data Structures.
+ * Tests for Module 4 — Linear Data Structures.
  *
  * <p>These tests verify both correctness and — where relevant — display
  * timing information so students can observe the performance differences
  * between ArrayList and LinkedList in practice.</p>
  */
-@DisplayName("Module 1 — Linear Data Structures")
+@DisplayName("Module 4 — Linear Data Structures")
 class LinearStructuresTest {
 
     // ---------------------------------------------------------------

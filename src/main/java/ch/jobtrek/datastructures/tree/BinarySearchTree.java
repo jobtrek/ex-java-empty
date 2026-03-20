@@ -3,7 +3,7 @@ package ch.jobtrek.datastructures.tree;
 import java.util.List;
 
 /**
- * <h1>Module 5 — Hierarchical Relationships and the Binary Search Tree</h1>
+ * <h1>Module 8 — Hierarchical Relationships and the Binary Search Tree</h1>
  *
  * <p>A Binary Search Tree (BST) is a hierarchical data structure where each node
  * contains a value and up to two child references (left and right). The BST enforces
