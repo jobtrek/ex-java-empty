@@ -1,6 +1,6 @@
 # Java Exercises
 
-**v1.1.2 :** [Read changelog](./CHANGELOG.md) <!-- x-release-please-version -->
+**v1.1.3 :** [Read changelog](./CHANGELOG.md) <!-- x-release-please-version -->
 
 This repo contains guided exercises to learn Java from the ground up. It starts with Java syntax and OOP basics, then
 moves on to data structures and performance trade-offs. The concepts covered are broadly applicable — data structures

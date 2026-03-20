@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.1.3](https://github.com/jobtrek/ex-java/compare/v1.1.2...v1.1.3) (2026-03-20)
+
+
+### Miscellaneous Chores
+
+* add sw-vanish for class property ([2b9a9b0](https://github.com/jobtrek/ex-java/commit/2b9a9b052190f3dd559c80a9b395652353165a34))
+* **main:** release 1.1.3-SNAPSHOT ([#59](https://github.com/jobtrek/ex-java/issues/59)) ([d420937](https://github.com/jobtrek/ex-java/commit/d4209375dd36083a426362ebb491a4c48c5befcf))
+
+
+### Continuous Integration
+
+* update to sw 1.4 ([a2a1f1d](https://github.com/jobtrek/ex-java/commit/a2a1f1dc06ba060f6397b2fd79113d5f96438425))
+
 ## [1.1.2](https://github.com/jobtrek/ex-java/compare/v1.1.1...v1.1.2) (2026-03-20)
 
 
