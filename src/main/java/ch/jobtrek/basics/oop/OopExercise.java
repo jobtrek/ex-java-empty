@@ -184,7 +184,6 @@ class BankAccount {
      */
     // TODO: declare private String owner
     // TODO: declare private double balance
-    throw new UnsupportedOperationException("TODO: replace me with your solution !");
 
     /**
      * Constructs a new {@code BankAccount} with the given owner and initial balance.
