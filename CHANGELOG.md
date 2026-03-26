@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.4](https://github.com/jobtrek/ex-java/compare/v1.1.3...v1.1.4) (2026-03-26)
+
+
+### Miscellaneous Chores
+
+* **main:** release 1.1.4-SNAPSHOT ([#62](https://github.com/jobtrek/ex-java/issues/62)) ([9cf09aa](https://github.com/jobtrek/ex-java/commit/9cf09aa704a21944570ad63a4b0288cc21736582))
+
 ## [1.1.3](https://github.com/jobtrek/ex-java/compare/v1.1.2...v1.1.3) (2026-03-20)
 
 
