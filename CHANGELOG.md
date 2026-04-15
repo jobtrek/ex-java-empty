@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.5](https://github.com/jobtrek/ex-java/compare/v1.1.4...v1.1.5) (2026-04-13)
+
+
+### Bug Fixes
+
+* exercices oop order ([144fc76](https://github.com/jobtrek/ex-java/commit/144fc768111d75c8de6e551f693e1afb56a60df9))
+
+
+### Miscellaneous Chores
+
+* **main:** release 1.1.5-SNAPSHOT ([#64](https://github.com/jobtrek/ex-java/issues/64)) ([d31e7b2](https://github.com/jobtrek/ex-java/commit/d31e7b2ab9d218dbd626dbdeb7d46e2661c2325e))
+
 ## [1.1.4](https://github.com/jobtrek/ex-java/compare/v1.1.3...v1.1.4) (2026-03-26)
 
 

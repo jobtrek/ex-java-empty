@@ -4,6 +4,8 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 
+import java.lang.reflect.Field;
+
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
@@ -12,6 +14,28 @@ import static org.assertj.core.api.Assertions.assertThatThrownBy;
  */
 @DisplayName("Module 3 — Object-Oriented Programming Basics")
 class OopTest {
+
+    // -- Reflection helpers so Exercise 1 tests do not depend on Exercise 2 getters --
+
+    /**
+     * Reads the private {@code owner} field via reflection.
+     * This lets us verify the constructor stores values correctly
+     * <em>before</em> the student has implemented getters.
+     */
+    private static String readOwner(BankAccount account) throws Exception {
+        Field f = BankAccount.class.getDeclaredField("owner");
+        f.setAccessible(true);
+        return (String) f.get(account);
+    }
+
+    /**
+     * Reads the private {@code balance} field via reflection.
+     */
+    private static double readBalance(BankAccount account) throws Exception {
+        Field f = BankAccount.class.getDeclaredField("balance");
+        f.setAccessible(true);
+        return f.getDouble(account);
+    }
 
     // ---------------------------------------------------------------
     // Exercise 1 — Fields and Constructor
@@ -23,30 +47,30 @@ class OopTest {
 
         @Test
         @DisplayName("A newly created account should store the owner and initial balance")
-        void shouldStoreOwnerAndBalance() {
+        void shouldStoreOwnerAndBalance() throws Exception {
             BankAccount account = new BankAccount("Alice", 500.0);
 
-            assertThat(account.getOwner()).isEqualTo("Alice");
-            assertThat(account.getBalance()).isEqualTo(500.0);
+            assertThat(readOwner(account)).isEqualTo("Alice");
+            assertThat(readBalance(account)).isEqualTo(500.0);
         }
 
         @Test
         @DisplayName("Two accounts should have independent state")
-        void accountsShouldBeIndependent() {
+        void accountsShouldBeIndependent() throws Exception {
             BankAccount a = new BankAccount("Alice", 100.0);
             BankAccount b = new BankAccount("Bob", 200.0);
 
-            assertThat(a.getOwner()).isEqualTo("Alice");
-            assertThat(b.getOwner()).isEqualTo("Bob");
-            assertThat(a.getBalance()).isNotEqualTo(b.getBalance());
+            assertThat(readOwner(a)).isEqualTo("Alice");
+            assertThat(readOwner(b)).isEqualTo("Bob");
+            assertThat(readBalance(a)).isNotEqualTo(readBalance(b));
         }
 
         @Test
         @DisplayName("Should allow an initial balance of zero")
-        void shouldAllowZeroBalance() {
+        void shouldAllowZeroBalance() throws Exception {
             BankAccount account = new BankAccount("Charlie", 0.0);
 
-            assertThat(account.getBalance()).isEqualTo(0.0);
+            assertThat(readBalance(account)).isEqualTo(0.0);
         }
 
         @Test
