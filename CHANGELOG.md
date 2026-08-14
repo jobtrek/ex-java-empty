@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.1.6](https://github.com/jobtrek/ex-java/compare/v1.1.5...v1.1.6) (2026-08-14)
+
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump org.apache.maven.plugins:maven-surefire-plugin ([#68](https://github.com/jobtrek/ex-java/issues/68)) ([c942f05](https://github.com/jobtrek/ex-java/commit/c942f055cc31afcf4c27438d0ed3ca10a02b605f))
+* **deps-dev:** bump org.junit.jupiter:junit-jupiter ([#67](https://github.com/jobtrek/ex-java/issues/67)) ([384aa6e](https://github.com/jobtrek/ex-java/commit/384aa6e0f3b3ad16244d54c856e50e037f647814))
+* **deps-dev:** bump org.junit.jupiter:junit-jupiter ([#70](https://github.com/jobtrek/ex-java/issues/70)) ([65232f1](https://github.com/jobtrek/ex-java/commit/65232f13807e0230f85a1238b7b0f59822d72580))
+* **main:** release 1.1.6-SNAPSHOT ([#66](https://github.com/jobtrek/ex-java/issues/66)) ([6f650f2](https://github.com/jobtrek/ex-java/commit/6f650f27307d950e44293f89b8da7936ee32a88b))
+
+
+### Documentation
+
+* concrete examples for data structures ([e9ef926](https://github.com/jobtrek/ex-java/commit/e9ef9262ff548e2cd983d63b120cc4774ee91de1))
+
 ## [1.1.5](https://github.com/jobtrek/ex-java/compare/v1.1.4...v1.1.5) (2026-04-13)
 
 
