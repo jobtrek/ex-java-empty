@@ -1,6 +1,6 @@
 # Java Exercises
 
-**v1.1.5 :** [Read changelog](./CHANGELOG.md) <!-- x-release-please-version -->
+**v1.1.6 :** [Read changelog](./CHANGELOG.md) <!-- x-release-please-version -->
 
 This repo contains guided exercises to learn Java from the ground up. It starts with Java syntax and OOP basics, then
 moves on to data structures and performance trade-offs. The concepts covered are broadly applicable — data structures
@@ -29,6 +29,7 @@ Before starting the exercises, read the relevant background articles:
 - [Java for Web Developers](docs/00-java-introduction.md), read this first if you are new to Java
 - [What is big O notation](docs/01-big-o-notation.md), read when starting data structures exercises
 - [Data Structures](docs/02-data-structures-overview.md)
+- [Data Structures — Real-Life Analogies](docs/04-data-structures-analogies.md)
 - [Streams vs loops (bonus only)](docs/03-streams-vs-loops.md)
 
 ## Exercises
